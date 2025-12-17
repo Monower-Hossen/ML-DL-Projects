@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetes Prediction</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        .container {
+            width: 400px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #8c0c0c;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Diabetes Prediction</h2>
+
+    <form action="/predict" method="post">
+
+        <label>Pregnancies</label>
+        <input type="number" name="Pregnancies" required>
+
+        <label>Glucose</label>
+        <input type="number" name="Glucose" required>
+
+        <label>Blood Pressure</label>
+        <input type="number" name="BloodPressure" required>
+
+        <label>Skin Thickness</label>
+        <input type="number" name="SkinThickness" required>
+
+        <label>Insulin</label>
+        <input type="number" name="Insulin" required>
+
+        <label>BMI</label>
+        <input type="number" step="any" name="BMI" required>
+
+        <label>Diabetes Pedigree Function</label>
+        <input type="number" step="any" name="DiabetesPedigreeFunction" required>
+
+        <label>Age</label>
+        <input type="number" name="Age" required>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction_text %}
+        <h3>{{ prediction_text }}</h3>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
