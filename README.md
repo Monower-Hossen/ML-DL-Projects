@@ -68,6 +68,29 @@ Summary of what was learned from this project and how it can be applied to real-
 
 ## 👤 Author
 
-**Monower Hossen**
-Machine Learning Engineering Student
-GitHub: [https://github.com/Monower-Hossen](https://github.com/Monower-Hossen)
+## 👋 Hi, I'm Monower Hossen
+
+🎓 CSE Student (7th Semester), National University, Bangladesh  
+🤖 Machine Learning Engineering Student  
+
+## 🛠️ Tech Stack
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/>
+</p>
+
+
+## 📚 Currently Learning
+- Machine Learning Algorithms  
+- Deep Learning (CNN, ANN)  
+- Model Deployment (Streamlit)  
+
+
+## 🔗 Connect
+- GitHub: https://github.com/Monower-Hossen
+
