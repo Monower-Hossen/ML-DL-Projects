@@ -1,64 +1,70 @@
-# ML-DL-Projects
-Daily practice projects on Machine Learning &amp; Deep Learning using real-world datasets. Focused on data preprocessing, model building, evaluation, and practical understanding.
+## Project 2: Diabetes Prediction using Machine Learning (SVM)
 
-## 🎯 Objective
-- Understand the dataset
-- Apply appropriate ML/DL algorithms
-- Evaluate model performance
-- Improve practical implementation skills
+### Project Overview
 
-## 📂 Dataset Information
-- Source: (Kaggle / UCI / Custom / Other)
-- Number of samples:
-- Number of features:
-- Target variable:
-- Dataset type: (Classification / Regression / Clustering)
+This project builds an **end-to-end machine learning pipeline** to predict whether a person has diabetes based on medical attributes.
+A **Support Vector Machine (SVM)** classifier is used for binary classification.
 
-## 🔧 Technologies Used
-- Python
-- NumPy
-- Pandas
-- Matplotlib / Seaborn
-- Scikit-learn
-- TensorFlow / PyTorch (if used)
+**Classification Labels:**
 
-## 🧪 Steps Performed
-1. Data loading
-2. Data cleaning & preprocessing
-3. Exploratory Data Analysis (EDA)
-4. Feature engineering (if any)
-5. Model selection
-6. Model training
+* `0` → Non-diabetic
+* `1` → Diabetic
+
+
+### Dataset
+
+**Pima Indians Diabetes Dataset**
+
+**Features:**
+
+* Pregnancies
+* Glucose
+* BloodPressure
+* SkinThickness
+* Insulin
+* BMI
+* DiabetesPedigreeFunction
+* Age
+
+**Target:**
+
+* Outcome
+
+
+### 🛠️ Tools & Libraries
+
+* Python
+* NumPy
+* Pandas
+* Matplotlib / Seaborn
+* Scikit-learn
+  
+### Workflow (End-to-End)
+
+1. Import required libraries
+2. Load the dataset
+3. Data exploration & cleaning
+4. Feature scaling (Standardization)
+5. Train-test split
+6. Model training using SVM
 7. Model evaluation
-8. Result analysis
+8. Prediction on new data
 
+---
 
-## 🤖 Model Used
-- Algorithm:
-- Parameters:
-- Train/Test Split:
+###  Results
 
-## 📊 Evaluation Metrics
-- Accuracy:
-- Precision:
-- Recall:
-- F1-Score:
-- RMSE / MAE (if regression)
+* Achieved **~75–80% accuracy** (may vary depending on data split and parameters)
+* Feature scaling significantly improved model performance
 
+---
 
-## 📈 Results
-Brief explanation of model performance and key observations.
+###  Conclusion
 
+* Support Vector Machine (SVM) performs well for diabetes prediction
+* Standardization is crucial for SVM models
+* Model performance can be improved by:
 
-## 📌 Conclusion
-What I learned from this project and how it helps in real-world scenarios.
-
-## 🚀 Future Improvements
-- Hyperparameter tuning
-- Try advanced models
-- Improve feature engineering
-
-## 👤 Author
-**Monower Hossen**  
-Machine Learning Engineering Student  
-GitHub: https://github.com/Monower-Hossen
+  * Hyperparameter tuning (GridSearchCV)
+  * Trying different kernels (RBF, Polynomial)
+  * Proper handling of zero or missing values
