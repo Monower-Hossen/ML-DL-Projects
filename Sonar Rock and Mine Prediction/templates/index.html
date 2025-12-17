@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sonar Rock vs Mine Prediction</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        .container { max-width: 700px; margin: auto; }
+        input[type="text"] { width: 50px; margin: 2px; }
+        .data { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        .data th, .data td { border: 1px solid black; padding: 5px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sonar Rock vs Mine Prediction</h2>
+
+        <h3>1. Predict from Manual Input (60 Features)</h3>
+        <form action="/predict" method="post">
+            {% for i in range(60) %}
+            <input type="text" name="feature{{i}}" placeholder="{{i+1}}">
+            {% endfor %}
+            <br><br>
+            <input type="submit" value="Predict">
+        </form>
+
+        <h3>2. Predict from CSV File Upload</h3>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="submit" value="Predict CSV">
+        </form>
+
+        {% if result %}
+        <h3>{{ result }}</h3>
+        {% endif %}
+
+        {% if tables %}
+            {% for table in tables %}
+                {{ table|safe }}
+            {% endfor %}
+        {% endif %}
+    </div>
+</body>
+</html>
