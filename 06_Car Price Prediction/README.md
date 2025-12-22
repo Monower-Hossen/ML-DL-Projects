@@ -143,7 +143,7 @@ streamlit run app.py
 ## 📸 App Screenshots
 
 ### Manual Input Mode
-![Manual Input](screenshots/mcar_price_app.png)
+![Manual Input](screenshots/car_price_app.png)
 
 
 ## 📜 License
