@@ -131,7 +131,7 @@ The Random Forest model demonstrates strong predictive performance and generaliz
 ## 📸 App Screenshots
 
 ### Manual Input Mode
-![Manual Input](screenshots/fake news detector.png)
+![Manual Input](Screenshots/fake news detector.png)
 
 
 
