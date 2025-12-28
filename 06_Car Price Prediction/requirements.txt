@@ -1,0 +1,18 @@
+# Core Python libraries
+numpy>=1.23
+pandas>=1.5
+
+# Machine Learning
+scikit-learn>=1.2
+joblib>=1.2
+
+# Web Application
+streamlit>=1.30
+
+# Visualization (optional but recommended)
+matplotlib>=3.7
+<<<<<<< HEAD
+seaborn>=0.12
+=======
+seaborn>=0.12
+>>>>>>> 427eba4eec4dab12ff768c474b2475065b7f3acd
