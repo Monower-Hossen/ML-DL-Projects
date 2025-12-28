@@ -132,15 +132,6 @@ This project illustrates the end-to-end workflow of a machine learning system, f
 ## 🚀 Installation & Usage
 
 ```bash
-<<<<<<< HEAD
-=======
-# Clone the repository
-git clone https://github.com/Monower-Hossen/Loan-Status-Prediction.git
-
-# Navigate to project directory
-cd Loan-Status-Prediction
-
->>>>>>> 427eba4eec4dab12ff768c474b2475065b7f3acd
 # Install dependencies
 pip install -r requirements.txt
 
@@ -173,23 +164,7 @@ The Random Forest model demonstrates strong predictive performance and generaliz
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
-<<<<<<< HEAD
 ## 📬 Contact
 
 **Monower Hossen**
 [GitHub](https://github.com/Monower-Hossen) | [LinkedIn](https://www.linkedin.com/in/monower-hossen/)
-=======
-## Author
-
-**Monower Hossen**
-BSc in Computer Science and Engineering
-[GitHub](https://github.com/Monower-Hossen) | [LinkedIn](https://www.linkedin.com/in/monower-hossen/)
-
-
-
-
-
-
-
-
->>>>>>> 427eba4eec4dab12ff768c474b2475065b7f3acd

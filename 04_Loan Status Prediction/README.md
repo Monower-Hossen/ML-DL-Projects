@@ -135,15 +135,6 @@ Loan-Status-Prediction/
 ## 🚀 Installation & Usage
 
 ```bash
-<<<<<<< HEAD
-=======
-# Clone the repository
-git clone https://github.com/Monower-Hossen/Loan-Status-Prediction.git
-
-# Navigate to project directory
-cd Loan-Status-Prediction
-
->>>>>>> 427eba4eec4dab12ff768c474b2475065b7f3acd
 # Install dependencies
 pip install -r requirements.txt
 

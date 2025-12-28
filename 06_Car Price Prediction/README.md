@@ -119,15 +119,7 @@ streamlit run app.py
 ## 🚀 Installation & Usage
 
 ```bash
-<<<<<<< HEAD
-=======
-# Clone the repository
-git clone https://github.com/Monower-Hossen/Loan-Status-Prediction.git
 
-# Navigate to project directory
-cd Loan-Status-Prediction
-
->>>>>>> 427eba4eec4dab12ff768c474b2475065b7f3acd
 # Install dependencies
 pip install -r requirements.txt
 
@@ -135,13 +127,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-<<<<<<< HEAD
 ## 📈 Results & Performance
 
 The Random Forest model demonstrates strong predictive performance and generalization ability, making it suitable for real-world loan approval systems.
 
-=======
->>>>>>> 427eba4eec4dab12ff768c474b2475065b7f3acd
 
 ## ⚙️ Installation
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python\&logoColor=white)
@@ -153,37 +142,17 @@ The Random Forest model demonstrates strong predictive performance and generaliz
 ## 📸 App Screenshots
 
 ### Manual Input Mode
-<<<<<<< HEAD
 ![Manual Input](screenshots/manual_input.png)
 
 ### CSV Upload Mode
 ![CSV Upload](screenshots/csv_upload.png)
-=======
-![Manual Input](screenshots/car_price_app.png)
->>>>>>> 427eba4eec4dab12ff768c474b2475065b7f3acd
 
 
 ## 📜 License
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
-<<<<<<< HEAD
 ## 📬 Contact
 
 **Monower Hossen**
 [GitHub](https://github.com/Monower-Hossen) | [LinkedIn](https://www.linkedin.com/in/monower-hossen/)
-=======
-## Author
-
-**Monower Hossen**
-BSc in Computer Science and Engineering
-[GitHub](https://github.com/Monower-Hossen) | [LinkedIn](https://www.linkedin.com/in/monower-hossen/)
-
-
-
-
-
-
-
-
->>>>>>> 427eba4eec4dab12ff768c474b2475065b7f3acd
